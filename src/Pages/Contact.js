@@ -90,6 +90,8 @@ function Contact() {
                 <span className="text-uppercase" style={{ color: "#60e5ab" }}>
                   Email
                 </span>
+                info@ceyhunergun.com.tr
+                <br />
                 ceyhunergun61@gmail.com
               </li>
               <li>
