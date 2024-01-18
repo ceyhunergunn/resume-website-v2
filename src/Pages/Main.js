@@ -58,14 +58,14 @@ function Main() {
     >
       <div className="container">
         <div className="row intro-text align-items-center justify-content-center">
-          <div className="col-lg-6 col-md-6 col-sm-12 text-left pt-5 text-start">
+          <div className="col-lg-6 col-md-6 col-sm-12 p-5">
             <h1 className="site-heading site-animate">
               Hello, I'm
               <br />
               <TypeWriter words={words} wait={wait} />
             </h1>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12 text-left pt-5 text-center">
+          <div className="col-lg-6 col-md-6 col-sm-12 p-5">
             <img
               src="cdn/images/avatar.png"
               alt="placeholder"

@@ -31,20 +31,14 @@ function About() {
               Hi I'm a junior web developer based in Istanbul,Turkey. Currently
               working at Uzel Bilişim as a Frontend Developer.
             </p>
-            <p className="mb-5"></p> I work on HTML, CSS, Bootstrap, JavaScript
-            and React.js. I gained experience in projects such as Allarmia and
-            Guardmon, where I contributed to the development of comprehensive
-            alarm management and smart sensor systems. I gained experience as a
-            Frontend Developer Intern at Uzel Bilişim, working on real-time
-            projects using HTML, CSS, Bootstrap, JavaScript, and React.js.
-            Additionally, I worked as a Mobile Application Developer Intern at
-            Clockwork Agency, where I developed entry-level applications using
-            React Native. I bring strengths such as being a team player,
-            creative thinker, responsible, and maintaining a positive attitude.
-            My skills include UI/UX design and web/mobile application
-            development. I completed "The Web Development Bootcamp," a
-            comprehensive course covering HTML, CSS, JavaScript, Node.js, React,
-            MongoDB, Web3, and DApps.
+            <p className="mb-5"></p> A highly motivated and results-oriented
+            frontend developer with experience in building dynamic and
+            responsive web applications using modern technologies like React.js,
+            React Hooks, Context API, and WebSocket. Skilled in UI/UX
+            development with HTML, CSS, and Bootstrap, and possessing strong web
+            development fundamentals with JavaScript. Passionate about building
+            intuitive and user-friendly interfaces and contributing to
+            high-performing teams.
             <br />
             <br />
             <p>

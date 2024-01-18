@@ -11,31 +11,30 @@ function Portfolio() {
             </h2>
           </div>
         </div>
-        <div className="filters"></div>
         <div className="filters-content">
-          <div className="row grid d-flex">
+          <div className="row">
             <div
-              className="single-portfolio col-sm-4 all mockup"
+              className="col-lg-6 col-md-6 col-sm-12 my-3"
               style={{ cursor: "pointer" }}
               onClick={() => (window.location.href = "https://allarmia.com/")}
             >
               <div className="relative">
-                <div className="thumb" style={{ padding: "20px 0" }}>
+                <div className="thumb" style={{ padding: "26px 0" }}>
                   <div className="overlay overlay-bg" />
                   <img
-                    style={{ height: "210px", width: "250px" }}
+                    style={{ width: "40%" }}
                     className="image img-fluid image-focus mx-auto"
                     src="cdn/images/allarmia.png"
                     alt="Allarmia"
                   />
                 </div>
               </div>
-              <div className="p-inner">
+              <div className="text-center">
                 <h4>Allarmia</h4>
               </div>
             </div>
             <div
-              className="single-portfolio col-sm-4 all mockup"
+              className="col-lg-6 col-md-6 col-sm-12 my-3"
               style={{ cursor: "pointer" }}
               onClick={() => (window.location.href = "https://guardmon.com/")}
             >
@@ -43,14 +42,14 @@ function Portfolio() {
                 <div className="thumb">
                   <div className="overlay overlay-bg" />
                   <img
-                    style={{ height: "250px", width: "250px" }}
+                    style={{ width: "40%" }}
                     className="image img-fluid image-focus mx-auto"
                     src="cdn/images/guardmon.png"
                     alt="img"
                   />
                 </div>
               </div>
-              <div className="p-inner">
+              <div className="text-center">
                 <h4>Guardmon</h4>
               </div>
             </div>

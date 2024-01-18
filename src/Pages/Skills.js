@@ -3,11 +3,7 @@ import React from "react";
 
 function Skills() {
   return (
-    <section
-      className="site-section pb-0"
-      data-aos="zoom-in"
-      id="section-services"
-    >
+    <section className="site-section pb-0" data-aos="zoom-in">
       <div className="container">
         <div className="row mb-4">
           <div className="col-md-12">

@@ -1,12 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Contact() {
-  const [name, setname] = useState("");
-  const [email, setemail] = useState("");
-  const [phone, setphone] = useState("");
-  const [subject, setsubject] = useState("");
-  const [message, setmessage] = useState("");
-
   return (
     <section className="site-section" data-aos="zoom-in" id="section-contact">
       <div className="container">
@@ -85,14 +79,6 @@ function Contact() {
                   className="d-flex align-items-center justify-content-center flex-column"
                   style={{ height: "75px" }}
                 >
-                  <div>
-                    <a
-                      className="contact-tag"
-                      href="mailto:info@ceyhunergun.com.tr"
-                    >
-                      info@ceyhunergun.com.tr
-                    </a>
-                  </div>
                   <div className="text-white">
                     <a
                       className="contact-tag"
