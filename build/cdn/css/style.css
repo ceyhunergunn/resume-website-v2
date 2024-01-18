@@ -267,6 +267,12 @@ a:active {
 .site-service-item {
   background: #333;
   padding: 30px;
+  border-radius: 8px;
+}
+.site-service-item:hover {
+  scale: 1.1;
+  transform: rotate(-2deg) !important;
+  transition-duration: 0.5s;
 }
 .site-service-item .icon {
   display: block;
@@ -698,6 +704,12 @@ a:active {
 .site-form .form-control {
   border: 1px solid #b3bdc6;
 }
+.contact-tag {
+  color: #777;
+}
+.contact-tag:hover {
+  color: #888;
+}
 
 .site-contact-details,
 .site-contact-details li {
@@ -733,6 +745,17 @@ a:active {
   border-radius: 50%;
   font-size: 22px;
   margin: 0 10px;
+}
+.social-item:hover {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: #444;
+  position: relative;
+  border-radius: 50%;
+  font-size: 22px;
+  margin: 0 10px;
+  cursor: pointer;
 }
 .site-footer .social-item > span {
   position: absolute;
@@ -808,4 +831,24 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type="number"] {
   -moz-appearance: textfield;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  background: teal;
+  border-radius: 8px;
+  opacity: 0;
+  transform: scale(1.2);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .square {
+    transition: opacity 1.5s ease, transform 1.5s ease;
+  }
+}
+
+.square-transition {
+  opacity: 1;
+  transform: none;
 }

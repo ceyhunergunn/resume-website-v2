@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="site-footer">
+    <footer className="site-footer" data-aos="zoom-in">
       <div className="container">
         <div className="row mb-3">
           <div className="col-md-12 text-center">

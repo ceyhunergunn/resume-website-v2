@@ -2,7 +2,7 @@ import React from "react";
 
 function Portfolio() {
   return (
-    <section className="site-section" id="section-portfolio">
+    <section className="site-section" data-aos="zoom-in" id="section-portfolio">
       <div className="container">
         <div className="row">
           <div className="section-heading text-center col-md-12">

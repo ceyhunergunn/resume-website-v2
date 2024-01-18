@@ -50,6 +50,7 @@ function Main() {
   return (
     <section
       className="site-hero"
+      data-aos="zoom-in"
       style={{ background: "#444" }}
       //   style={{ backgroundImage: "url(cdn/images/image_1.jpg)" }}
       id="section-home"

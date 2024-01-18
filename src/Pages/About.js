@@ -13,7 +13,7 @@ function About() {
   };
 
   return (
-    <section className="site-section" id="section-about">
+    <section data-aos="zoom-in" className="site-section" id="section-about">
       <div className="container">
         <div className="row mb-5 align-items-center">
           <div className="col-lg-6 pr-lg-5 mb-5 mb-lg-0 text-center">

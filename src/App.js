@@ -7,6 +7,9 @@ import Main from "./Pages/Main";
 import Portfolio from "./Pages/Portfolio";
 import Resume from "./Pages/Resume";
 import Skills from "./Pages/Skills";
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 function App() {
   return (
