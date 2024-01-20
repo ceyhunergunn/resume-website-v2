@@ -13,17 +13,20 @@ function About() {
   };
 
   return (
-    <section data-aos="zoom-in" className="site-section" id="section-about">
+    <section className="site-section" id="section-about">
       <div className="container">
         <div className="row mb-5 align-items-center">
-          <div className="col-lg-6 pr-lg-5 mb-5 mb-lg-0 text-center">
+          <div
+            className="col-lg-6 pr-lg-5 mb-5 mb-lg-0 text-center"
+            data-aos="fade-right"
+          >
             <img
               src="cdn/images/avatar.png"
               alt="placeholder"
               className="img-fluid"
             />
           </div>
-          <div className="col-lg-6 pl-lg-6">
+          <div className="col-lg-6 pl-lg-6" data-aos="fade-left">
             <div className="section-heading">
               <h2>About Me</h2>
             </div>

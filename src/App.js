@@ -1,4 +1,3 @@
-import "./App.css";
 import Navbar from "./Components/Navbar";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
@@ -9,6 +8,7 @@ import Resume from "./Pages/Resume";
 import Skills from "./Pages/Skills";
 import AOS from "aos";
 import "aos/dist/aos.css";
+
 AOS.init();
 
 function App() {

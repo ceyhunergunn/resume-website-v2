@@ -15,6 +15,7 @@ function Portfolio() {
           <div className="row">
             <div
               className="col-lg-6 col-md-6 col-sm-12 my-3"
+              data-aos="fade-right"
               style={{ cursor: "pointer" }}
               onClick={() => (window.location.href = "https://allarmia.com/")}
             >
@@ -35,6 +36,7 @@ function Portfolio() {
             </div>
             <div
               className="col-lg-6 col-md-6 col-sm-12 my-3"
+              data-aos="fade-left"
               style={{ cursor: "pointer" }}
               onClick={() => (window.location.href = "https://guardmon.com/")}
             >

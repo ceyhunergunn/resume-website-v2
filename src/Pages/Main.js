@@ -50,7 +50,6 @@ function Main() {
   return (
     <section
       className="site-hero"
-      data-aos="zoom-in"
       style={{ background: "#444" }}
       //   style={{ backgroundImage: "url(cdn/images/image_1.jpg)" }}
       id="section-home"
@@ -58,14 +57,20 @@ function Main() {
     >
       <div className="container">
         <div className="row intro-text align-items-center justify-content-center">
-          <div className="col-lg-6 col-md-6 col-sm-12 p-5">
-            <h1 className="site-heading site-animate">
+          <div
+            className="col-lg-6 col-md-6 col-sm-12 p-5"
+            data-aos="fade-right"
+          >
+            <h1 className="site-heading site-animate text-center">
               Hello, I'm
               <br />
               <TypeWriter words={words} wait={wait} />
             </h1>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-12 p-5">
+          <div
+            className="col-lg-6 col-md-6 col-sm-12 p-5 d-flex justify-content-center align-items-center"
+            data-aos="fade-left"
+          >
             <img
               src="cdn/images/avatar.png"
               alt="placeholder"

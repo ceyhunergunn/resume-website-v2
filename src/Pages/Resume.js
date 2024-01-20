@@ -12,7 +12,7 @@ function Resume() {
               </h2>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="fade-right">
             <h2 className="mb-5">Experience</h2>
             <div className="resume-item mb-4">
               <span className="date">
@@ -82,7 +82,7 @@ function Resume() {
               <span className="school">Clockwork Agency, Istanbul</span>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="fade-left">
             <h2 className="mb-5">Course</h2>
             <div className="resume-item mb-4">
               <span className="date">

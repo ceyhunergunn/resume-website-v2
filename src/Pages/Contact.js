@@ -2,10 +2,10 @@ import React from "react";
 
 function Contact() {
   return (
-    <section className="site-section" data-aos="zoom-in" id="section-contact">
+    <section className="site-section" id="section-contact">
       <div className="container">
         <div className="row">
-          <div className="col-md-12">
+          <div className="col-md-12" data-aos="zoom-in">
             <div className="section-heading text-center">
               <h2>
                 <strong>Get In Touch</strong>
@@ -71,7 +71,10 @@ function Contact() {
           <div className="col-md-12 pl-md-12">
             {/* <h3 className="mb-5">My Contact Details</h3> */}
             <ul className="site-contact-details row">
-              <div className="col-lg-4 col-md-4 col-sm-12 text-center">
+              <div
+                className="col-lg-4 col-md-4 col-sm-12 text-center"
+                data-aos="flip-down"
+              >
                 <div className="text-uppercase" style={{ color: "#60e5ab" }}>
                   Email
                 </div>
@@ -89,7 +92,10 @@ function Contact() {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-4 col-sm-12 text-center">
+              <div
+                className="col-lg-4 col-md-4 col-sm-12 text-center"
+                data-aos="flip-down"
+              >
                 <div className="text-uppercase" style={{ color: "#60e5ab" }}>
                   Phone
                 </div>
@@ -102,7 +108,10 @@ function Contact() {
                   </a>
                 </div>
               </div>
-              <div className="col-lg-4 col-md-4 col-sm-12 text-center">
+              <div
+                className="col-lg-4 col-md-4 col-sm-12 text-center"
+                data-aos="flip-down"
+              >
                 <div className="text-uppercase" style={{ color: "#60e5ab" }}>
                   Address
                 </div>
