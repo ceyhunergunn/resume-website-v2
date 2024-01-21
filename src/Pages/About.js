@@ -38,22 +38,16 @@ function About() {
             frontend developer with experience in building dynamic and
             responsive web applications using modern technologies like React.js,
             React Hooks, Context API, and WebSocket. Skilled in UI/UX
-            development with HTML, CSS, and Bootstrap, and possessing strong web
-            development fundamentals with JavaScript. Passionate about building
-            intuitive and user-friendly interfaces and contributing to
-            high-performing teams.
+            development with HTML, CSS, CSS Preprocessors (Sass, Less) and
+            Bootstrap, and possessing strong web development fundamentals with
+            JavaScript. Passionate about building intuitive and user-friendly
+            interfaces and contributing to high-performing teams.
             <br />
             <br />
             <p>
               <a
-                href="#section-contact"
-                className="btn btn-primary px-4 py-2 btn-sm smoothscroll mr-3"
-              >
-                Hire Me
-              </a>
-              <a
                 href="#"
-                className="btn btn-secondary px-4 py-2 btn-sm"
+                className="btn btn-primary px-4 py-2 btn-sm"
                 onClick={handleDownload}
               >
                 Download CV
