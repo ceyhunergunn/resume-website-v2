@@ -85,9 +85,9 @@ function Contact() {
                   <div className="text-white">
                     <a
                       className="contact-tag"
-                      href="mailto:ceyhunergun61@gmail.com"
+                      href="mailto:iamceyhunergun@gmail.com"
                     >
-                      ceyhunergun61@gmail.com
+                      iamceyhunergun@gmail.com
                     </a>
                   </div>
                 </div>
