@@ -57,20 +57,14 @@ function Main() {
     >
       <div className="container">
         <div className="row intro-text align-items-center justify-content-center">
-          <div
-            className="col-lg-6 col-md-6 col-sm-12 p-5"
-            data-aos="fade-right"
-          >
+          <div className="col-lg-6 col-md-6 col-sm-12 p-5">
             <h1 className="site-heading site-animate text-center">
               Hello, I'm
               <br />
               <TypeWriter words={words} wait={wait} />
             </h1>
           </div>
-          <div
-            className="col-lg-6 col-md-6 col-sm-12 p-5 d-flex justify-content-center align-items-center"
-            data-aos="fade-left"
-          >
+          <div className="col-lg-6 col-md-6 col-sm-12 p-5 d-flex justify-content-center align-items-center">
             <img
               src="cdn/images/avatar.png"
               alt="placeholder"

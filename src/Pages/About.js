@@ -18,7 +18,7 @@ function About() {
         <div className="row mb-5 align-items-center">
           <div
             className="col-lg-6 pr-lg-5 mb-5 mb-lg-0 text-center"
-            data-aos="fade-right"
+            data-aos="fade-up"
           >
             <img
               src="cdn/images/avatar.png"
@@ -26,7 +26,7 @@ function About() {
               className="img-fluid"
             />
           </div>
-          <div className="col-lg-6 pl-lg-6" data-aos="fade-left">
+          <div className="col-lg-6 pl-lg-6" data-aos="fade-up">
             <div className="section-heading">
               <h2>About Me</h2>
             </div>
