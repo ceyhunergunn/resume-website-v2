@@ -26,7 +26,9 @@ function App() {
       <div className="portfolio-area">
         <div
           className="portfolio-btn text-center text-dark d-flex align-items-center justify-content-between"
-          onClick={() => window.open("https://hicci.com.tr/portfolio")}
+          onClick={() =>
+            (window.location.href = "https://portfolio.hicci.com.tr")
+          }
         >
           <span className="">Portfolio</span>
 
