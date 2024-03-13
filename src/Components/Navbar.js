@@ -19,6 +19,13 @@ function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
 
+        <div>
+          <img
+            src="favicon.png"
+            style={{ width: "90px", height: "90px" }}
+            alt="logo"
+          />
+        </div>
         <div
           className="collapse navbar-collapse justify-content-md-center"
           id="navbarsExample09"
@@ -50,6 +57,12 @@ function Navbar() {
               </a>
             </li>
           </ul>
+        </div>
+        <div
+          className="d-none d-xl-block"
+          style={{ width: "90px", height: "90px" }}
+        >
+          {" "}
         </div>
       </div>
     </nav>
