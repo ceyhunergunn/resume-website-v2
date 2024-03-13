@@ -50,7 +50,6 @@ function Main() {
   return (
     <section
       className="site-hero"
-      style={{ background: "#444" }}
       //   style={{ backgroundImage: "url(cdn/images/image_1.jpg)" }}
       id="section-home"
       data-stellar-background-ratio="0.5"

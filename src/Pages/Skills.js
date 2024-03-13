@@ -17,7 +17,7 @@ function Skills() {
         <div className="row">
           <div
             className="col-md-6 col-lg-4 text-center mb-5"
-            data-aos="flip-down"
+            data-aos="fadeIn"
             data-aos-offset="200"
           >
             <div
@@ -36,7 +36,7 @@ function Skills() {
           </div>
           <div
             className="col-md-6 col-lg-4 text-center mb-5"
-            data-aos="flip-down"
+            data-aos="fadeIn"
             data-aos-offset="200"
           >
             <div
@@ -55,7 +55,7 @@ function Skills() {
           </div>
           <div
             className="col-md-6 col-lg-4 text-center mb-5"
-            data-aos="flip-down"
+            data-aos="fadeIn"
             data-aos-offset="200"
           >
             <div
@@ -74,7 +74,7 @@ function Skills() {
           </div>
           <div
             className="col-md-6 col-lg-4 text-center mb-5"
-            data-aos="flip-down"
+            data-aos="fadeIn"
             data-aos-offset="200"
           >
             <div
@@ -93,7 +93,7 @@ function Skills() {
           </div>
           <div
             className="col-md-6 col-lg-4 text-center mb-5"
-            data-aos="flip-down"
+            data-aos="fadeIn"
             data-aos-offset="200"
           >
             <div
@@ -112,7 +112,7 @@ function Skills() {
           </div>
           <div
             className="col-md-6 col-lg-4 text-center mb-5"
-            data-aos="flip-down"
+            data-aos="fadeIn"
             data-aos-offset="200"
           >
             <div
@@ -131,7 +131,7 @@ function Skills() {
           </div>
           <div
             className="col-md-6 col-lg-4 text-center mb-5"
-            data-aos="flip-down"
+            data-aos="fadeIn"
             data-aos-offset="200"
           >
             <div

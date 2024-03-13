@@ -16,7 +16,7 @@ function Resume() {
             <h2 className="mb-5">Experience</h2>
             <div className="resume-item mb-4">
               <span className="date">
-                <span className="icon-calendar" /> February 2023 - Present
+                <span className="icon-calendar" /> February 2023 - February 2024
               </span>
               <h3>Frontend Developer</h3>
               <ul className="text-white">
@@ -86,18 +86,26 @@ function Resume() {
             <h2 className="mb-5">Course</h2>
             <div className="resume-item mb-4">
               <span className="date">
+                <span className="icon-calendar" /> February 2024 - March 2024
+              </span>
+              <h3>The Modern JavaScript Bootcamp</h3>
+
+              <div className="text-white">
+                The course includes OOP and Modern JavaScript.
+              </div>
+
+              <span className="school mt-2">Udemy</span>
+            </div>
+            <div className="resume-item mb-4">
+              <span className="date">
                 <span className="icon-calendar" /> September 2022 - January 2023
               </span>
               <h3>The Web Development Bootcamp</h3>
 
               <div className="text-white">
-                The course includes HTML, CSS, Javascript, Node and React by
-                Angela Yu.
-                <br />
-                <br />
+                The course includes HTML, CSS, Javascript, Node and React
               </div>
-
-              <span className="school">Udemy</span>
+              <span className="school mt-2">Udemy</span>
             </div>
             <h2 className="mb-5 mt-5">Education</h2>
             <div className="resume-item mb-4">

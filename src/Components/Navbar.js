@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-lg site-navbar navbar-light bg-light"
+      className="navbar navbar-expand-lg site-navbar navbar-dark bg-light"
       id="pb-navbar"
     >
       <div className="container">
@@ -29,11 +29,11 @@ function Navbar() {
                 Home
               </a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#section-portfolio">
+            {/* <li className="nav-item">
+              <a className="nav-link" href="https://portfolio.hicci.com.tr/">
                 Portfolio
               </a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link" href="#section-resume">
                 Resume

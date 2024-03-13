@@ -31,10 +31,9 @@ function About() {
               <h2>About Me</h2>
             </div>
             <p className="lead">
-              Hi I'm a junior web developer based in Istanbul,Turkey. Currently
-              working at Uzel Bilişim as a Frontend Developer.
+              Hi I'm a junior web developer based in Istanbul, Turkey.
             </p>
-            <p className="mb-5"></p> A highly motivated and results-oriented
+            <p className="mb-4"></p> A highly motivated and results-oriented
             frontend developer with experience in building dynamic and
             responsive web applications using modern technologies like React.js,
             React Hooks, Context API, and WebSocket. Skilled in UI/UX
@@ -44,15 +43,14 @@ function About() {
             interfaces and contributing to high-performing teams.
             <br />
             <br />
-            <p>
-              <a
-                href="#"
-                className="btn btn-primary px-4 py-2 btn-sm"
-                onClick={handleDownload}
-              >
-                Download CV
-              </a>
-            </p>
+            <a
+              href="#"
+              style={{ borderRadius: "8px !important" }}
+              className="btn btn-primary px-4 py-2 btn-sm text-dark"
+              onClick={handleDownload}
+            >
+              Download CV
+            </a>
           </div>
         </div>
       </div>
