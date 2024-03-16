@@ -50,14 +50,13 @@ function Main() {
   return (
     <section
       className="site-hero"
-      //   style={{ backgroundImage: "url(cdn/images/image_1.jpg)" }}
       id="section-home"
       data-stellar-background-ratio="0.5"
     >
       <div className="container">
         <div className="row intro-text align-items-center justify-content-center">
           <div className="col-lg-6 col-md-6 col-sm-12 p-5">
-            <h1 className="site-heading site-animate text-center">
+            <h1 className="text-center">
               Hello, I'm
               <br />
               <TypeWriter words={words} wait={wait} />
