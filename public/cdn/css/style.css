@@ -4,7 +4,6 @@ body {
   background: url("../images/bg.png");
   background-position: center;
   background-size: cover;
-  background-size: cover;
   background-attachment: fixed;
   line-height: 1.7;
   font-size: 16px;
@@ -19,6 +18,26 @@ body {
   left: 0;
   background: rgba(0, 0, 0, 0.3);
 }
+
+/* .portfolio-area {
+  position: sticky;
+  bottom: 10px;
+  right: 10px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: end;
+  padding: 0 1rem 0 0;
+}
+.portfolio-btn {
+  background-color: #60e5ab;
+  border-radius: 100px;
+  width: 120px;
+  height: 30px;
+  padding: 0rem 1rem;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+} */
 
 .p1-gradient-bg,
 .thumb .overlay-bg {
