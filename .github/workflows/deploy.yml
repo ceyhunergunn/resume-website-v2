@@ -26,8 +26,8 @@ jobs:
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
         with:
-          name: dist
-          path: dist
+          name: build
+          path: build
   deploy:
     name: Deploy
     needs: build
@@ -36,8 +36,8 @@ jobs:
       - name: Download Artifact
         uses: actions/download-artifact@v4
         with:
-          name: dist
-          path: dist
+          name: build
+          path: build
 
       - name: Sync Files to cPanel
         uses: sebastianpopp/ftp-action@releases/v2
@@ -45,4 +45,4 @@ jobs:
           host: ${{ secrets.FTP_SERVER }}
           user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          localDir: "dist"
+          localDir: "build"
