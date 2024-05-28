@@ -47,7 +47,7 @@ function Skills() {
                 <img
                   className="icon-browser2"
                   src="cdn/images/css.png"
-                  style={{ width: "90px", height: "90px" }}
+                  style={{ width: "80px", height: "80px" }}
                 />
               </span>
               <h3 className="mb-4">CSS</h3>
@@ -70,6 +70,25 @@ function Skills() {
                 />
               </span>
               <h3 className="mb-4">Bootstrap</h3>
+            </div>
+          </div>
+          <div
+            className="col-md-6 col-lg-4 text-center mb-5"
+            data-aos="fadeIn"
+            data-aos-offset="200"
+          >
+            <div
+              className="site-service-item site-animate"
+              data-animate-effect="fadeIn"
+            >
+              <span className="icon d-flex align-items-center justify-content-center">
+                <img
+                  className="icon-browser2"
+                  src="cdn/images/tailwind.png"
+                  style={{ width: "80px", height: "50px" }}
+                />
+              </span>
+              <h3 className="mb-4">Tailwind</h3>
             </div>
           </div>
           <div
@@ -123,10 +142,29 @@ function Skills() {
                 <img
                   className="icon-browser2"
                   src="cdn/images/js.png"
-                  style={{ width: "60px", height: "70px" }}
+                  style={{ width: "70px", height: "70px" }}
                 />
               </span>
-              <h3 className="mb-4">Javascript</h3>
+              <h3 className="mb-4">JavaScript</h3>
+            </div>
+          </div>
+          <div
+            className="col-md-6 col-lg-4 text-center mb-5"
+            data-aos="fadeIn"
+            data-aos-offset="200"
+          >
+            <div
+              className="site-service-item site-animate"
+              data-animate-effect="fadeIn"
+            >
+              <span className="icon d-flex align-items-center justify-content-center">
+                <img
+                  className="icon-browser2"
+                  src="cdn/images/ts.png"
+                  style={{ width: "70px", height: "70px" }}
+                />
+              </span>
+              <h3 className="mb-4">TypeScript</h3>
             </div>
           </div>
           <div

@@ -86,6 +86,16 @@ function Resume() {
             <h2 className="mb-5">Course</h2>
             <div className="resume-item mb-4">
               <span className="date">
+                <span className="icon-calendar" /> March 2024 - April 2024
+              </span>
+              <h3>The Modern TypeScript Bootcamp</h3>
+
+              <div className="text-white">The course includes TypeScript.</div>
+
+              <span className="school mt-2">Udemy</span>
+            </div>
+            <div className="resume-item mb-4">
+              <span className="date">
                 <span className="icon-calendar" /> February 2024 - March 2024
               </span>
               <h3>The Modern JavaScript Bootcamp</h3>
